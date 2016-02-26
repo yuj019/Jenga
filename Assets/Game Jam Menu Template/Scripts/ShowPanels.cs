@@ -12,15 +12,15 @@ public class ShowPanels : MonoBehaviour {
 	//Call this function to activate and display the Options panel during the main menu
 	public void ShowOptionsPanel()
 	{
-		optionsPanel.SetActive(false);
-		optionsTint.SetActive(false);
+		optionsPanel.SetActive(true);
+		optionsTint.SetActive(true);
 	}
 
 	//Call this function to deactivate and hide the Options panel during the main menu
 	public void HideOptionsPanel()
 	{
-		optionsPanel.SetActive(true);
-		optionsTint.SetActive(true);
+		optionsPanel.SetActive(false);
+		optionsTint.SetActive(false);
 	}
 
 	//Call this function to activate and display the main menu panel during the main menu
